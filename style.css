@@ -164,7 +164,7 @@ body.contact-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
-body.photo-on .hero-section {
+body.blog-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -385,7 +385,7 @@ body.contact-on .contact-section {
 	}
 }
 
-.photo-section,
+.blog-section,
 .member-section,
 .join-section {
     position: fixed;
@@ -402,7 +402,7 @@ body.contact-on .contact-section {
 	transition: all 300ms linear;
 	z-index: 10;
 }
-.photo-close,
+.blog-close,
 .member-close,
 .join-close {
     position: absolute;
@@ -421,12 +421,12 @@ body.contact-on .contact-section {
 	cursor: pointer;
 	z-index: 11;
 }
-.photo-close:hover,
+.blog-close:hover,
 .member-close:hover,
 .join-close:hover {
     transform: rotate(90deg);
 }
-body.photo-on .photo-section {
+body.blog-on .blog-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
@@ -441,7 +441,7 @@ body.join-on .join-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
-.photo-section img,
+.blog-section img,
 .member-section img,
 .join-section img {
 	margin-top: 30px;
@@ -451,7 +451,7 @@ body.join-on .join-section {
 	border-radius: 4px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
-.photo-section h3,
+.blog-section h3,
 .member-section h3,
 .join-section h3 {
 	font-size: 44px;
@@ -460,14 +460,14 @@ body.join-on .join-section {
 	letter-spacing: 1px;
 	color: #fff;
 }
-.photo-section p,
+.blog-section p,
 .member-section p,
 .join-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
-.photo-section p span,
+.blog-section p span,
 .member-section p span,
 .join-section p span {
 	font-size: 20px;

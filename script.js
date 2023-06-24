@@ -50,11 +50,11 @@
 	
 	//Photo portfolio page
 	
-	$(".photo").on('click', function () {
-		$("body").addClass("photo-on");
+	$(".blog").on('click', function () {
+		$("body").addClass("blog-on");
 	});
-	$(".photo-close").on('click', function () {
-		$("body").removeClass("photo-on");
+	$(".blog-close").on('click', function () {
+		$("body").removeClass("blog-on");
 	});
 
 	
